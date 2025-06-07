@@ -1,0 +1,38 @@
+[Adblock Plus]
+! Title: GB's Chores
+! Description: these rules may help you, but for most of the cases you don't need them
+! Homepage: https://github.com/BlockG-ws/adblock-rules
+! License: https://github.com/BlockG-ws/adblock-rules/blob/main/LICENSE
+! Issues: https://github.com/BlockG-ws/adblock-rules/issues
+
+! 这些规则主要是为您编写新的规则提供参考，也作为备份用意
+
+! https://www.bilibili.com
+! 阻止b站首页获取新消息，这在已经安装 bilibili evolved 等插件时非常有用
+||*://message.bilibili.com/pages/nav/index_new_pc_sync
+||*://message.bilibili.com/pages/nav/index_new_sync
+! b站不显示横幅的logo，配合 bilibli 客户端推荐 脚本会很好用
+www.bilibili.com##.inner-logo
+
+
+! 从 google 上移除 知乎、csdn、抖音的搜索结果
+! 如果要给其它搜索引擎用，请参考 search.txt
+google.com##.g:has(a[href*="zhihu"])
+google.com##a[href*="zhihu"]:upward(1)
+
+google.com##.g:has(a[href*="csdn"])
+google.com##a[href*="csdn"]:upward(1)
+
+google.com##.g:has(a[href*="douyin"])
+google.com##a[href*="douyin"]:upward(1)
+
+! https://blog.xinshijiededa.men
+! 感谢 @commandblock2
+! 当你想在晚上的时候使用 dark reader 看他翻译的 tonsky 的文章的时候，这个会很有用
+! 去除 dark reader 提示，改变背景色，看完记得关掉
+blog.xinshijiededa.men###no-darkreader
+
+blog.xinshijiededa.men###no-darkreader
+blog.xinshijiededa.men##html[data-darkreader-scheme="dark"] > * > *:style(filter: none !important)
+blog.xinshijiededa.men/unicode/##html[data-darkreader-scheme="dark"]#vert body :style(background: black !important)
+
