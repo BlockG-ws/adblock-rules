@@ -5,7 +5,7 @@ multi-purpose content block rules for adblock plugins
 - [Annoyances](./annoyances.txt)
 - [Cleanup promotions](./cleanup.txt)
 - [Search engine results block](./search.txt)
-- Extra tracking blocks
+- [Extra tracking blocks](./tracking.txt)
 
 ## Installation
 uBlock Origin is recommended.

@@ -1,0 +1,16 @@
+[Adblock Plus]
+! Title: GB's Tracking Blocklist
+! Description: prevent more site from tracking you
+! Homepage: https://github.com/BlockG-ws/adblock-rules
+! License: https://github.com/BlockG-ws/adblock-rules/blob/main/LICENSE
+! Issues: https://github.com/BlockG-ws/adblock-rules/issues
+
+! hedwi
+||https://hedwi.com/static/js/track.js
+
+! n8n related
+||https://telemetry.n8n.io/v1/track*
+||https://formspree.io/*
+
+! https://itestcloud.unipus.cn
+@@||itestres.unipus.cn/js/sensorsdata.min.js$xhr,domain=itestcloud.unipus.cn
