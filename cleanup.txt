@@ -1,0 +1,75 @@
+[Adblock Plus]
+! Title: GB's Cleanup Blocklist
+! Description: cleaning up unnecessary promotions
+! Homepage: https://github.com/BlockG-ws/adblock-rules
+! License: https://github.com/BlockG-ws/adblock-rules/blob/main/LICENSE
+! Issues: https://github.com/BlockG-ws/adblock-rules/issues
+
+! https://vuejs.org
+! remove campaign banners
+vuejs.org###bb-banner
+vuejs.org##html:remove-class('has-bb-banner')
+
+! https://docs.astro.build
+! remove learn courses
+docs.astro.build##div.astro-evux67hy.sl-container:nth-of-type(2)
+
+! https://www.geeksforgeeks.org
+! remove OIN tech promo in the right-down corner
+www.geeksforgeeks.org##.OINTechPromoRightBarBanner
+
+! https://www.forbes.com
+! remove newsletter, forbes videos, related articles card in article for forbes
+www.forbes.com##fbs-video:upward(3)
+www.forbes.com##.recirc-module
+www.forbes.com##.xl-recirc-container
+www.forbes.com##.newsLetterSubscriptionLink
+www.forbes.com##.inlineAdMobileContainer
+www.forbes.com##div[data-testid="ad-container"]
+
+! https://unsplash.com
+! remove all plus prompt & promoted image (for free users maybe)
+unsplash.com##a:matches-attr(href="/\/plus(.*)/")
+unsplash.com##figure:has(a:matches-attr(href="/\/plus(.*)/"))
+unsplash.com##figure:has(a:has-text(/^Promoted/i))
+
+! https://uigradients.com
+! remove "skillshare" promption
+uigradients.com##.sponsor
+
+
+! https://www.bilibili.com
+! b站首页“检测到您使用了插件，展示内容可能受影响”的提示
+www.bilibili.com##.adblock-tips
+! b站首页未登录状态下的登录提示
+www.bilibili.com##.login-tip
+
+! https://time.is
+time.is###toppromotion
+
+! https://www.freedidi.com
+! 零度博客电脑端侧边栏推广
+www.freedidi.com##div.widget_media_image.zib-widget
+
+! https://zhenti.burningvocabulary.cn
+! 试卷页面去除付费版推广按钮
+zhenti.burningvocabulary.cn##.zhenti_ad
+zhenti.burningvocabulary.cn##.sub_top_upgrade
+
+! https://alistgo.com
+! alist 文档侧边栏推广
+alistgo.com##.sidebar-ad-placeholder
+
+! 123 云盘分享页面背景广告
+*https://statics.123957.com/share-static/dist/*.png
+*https://app.123pan.com/manager/share_background/
+123pan.com##div.appdiv.web-wrap div.webbody:style(background-image: none !important;)
+123865.com##div.appdiv.web-wrap div.webbody:style(background-image: none !important;)
+123864.com##div.appdiv.web-wrap div.webbody:style(background-image: none !important;)
+
+! https://www.yutu.cn
+! 羽兔网：移除登录提示、vip 推广弹窗
+www.yutu.cn##.home-alt-activ
+www.yutu.cn##.js_min_activity_home.user-research
+www.yutu.cn##.right-add-vip
+www.yutu.cn##.login-fixed
