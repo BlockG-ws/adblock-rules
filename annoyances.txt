@@ -1,0 +1,14 @@
+[Adblock Plus]
+! Title: GB's Annoyance Blocklist
+! Description: cleaning up annoying popups and useless tips
+! Homepage: https://github.com/BlockG-ws/adblock-rules
+! License: https://github.com/BlockG-ws/adblock-rules/blob/main/LICENSE
+! Issues: https://github.com/BlockG-ws/adblock-rules/issues
+
+! 联想知识库扫码关注公众号
+iknow.lenovo.com.cn##.dialog-wrapper
+iknow.lenovo.com.cn##.qrcode-page-wrapper
+
+! dev.to greeting popup
+dev.to##.body-billboard-container.js-billboard-container
+
