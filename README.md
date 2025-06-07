@@ -4,7 +4,7 @@ multi-purpose content block rules for adblock plugins
 ## Categories
 - [Annoyances](./annoyances.txt)
 - [Cleanup promotions](./cleanup.txt)
-- Search engine results block
+- [Search engine results block](./search.txt)
 - Extra tracking blocks
 
 ## Installation

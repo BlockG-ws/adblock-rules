@@ -1,0 +1,30 @@
+[Adblock Plus]
+! Title: GB's Search Results Blocklist
+! Description: remove fake/outdated sites from appearing, like ublacklist do.
+! Homepage: https://github.com/BlockG-ws/adblock-rules
+! License: https://github.com/BlockG-ws/adblock-rules/blob/main/LICENSE
+! Issues: https://github.com/BlockG-ws/adblock-rules/issues
+
+! remove old fandom Minecraft wiki
+! https://minecraft.wiki/w/Minecraft_Wiki:Moving_from_Fandom
+! google
+google.com##.g:has(a[href*="minecraft.fandom.com"])
+google.com##a[href*="minecraft.fandom.com"]:upward(1)
+! duckduckgo
+duckduckgo.com##li:has(a[href*="minecraft.fandom.com"])
+duckduckgo.com##a[href*="minecraft.fandom.com"]:upward(4)
+! bing
+bing.com##cite:has-text(minecraft.fandom):upward(6)
+
+! remove fake archlinux cn site
+! https://www.archlinuxcn.org/notice-regarding-a-similar-wiki-site/
+! google
+google.com##.g:has(a[href*="archlinux.org.cn"])
+google.com##a[href*="archlinux.org.cn"]:upward(1)
+! duckduckgo
+duckduckgo.com##li:has(a[href*="archlinux.org.cn"])
+duckduckgo.com##a[href*="archlinux.org.cn"]:upward(4)
+! bing
+bing.com##cite:has-text(archlinux.org.cn):upward(6)
+
+! todo: remove content farms
