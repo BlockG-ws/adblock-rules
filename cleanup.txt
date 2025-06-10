@@ -42,6 +42,9 @@ unsplash.com##figure:has(a:has-text(/^Promoted/i))
 ! remove "skillshare" promption
 uigradients.com##.sponsor
 
+! 8 Jun 2025 https://music.youtube.com
+! remove 'open app' in the navbar
+music.youtube.com##.ytmusic-nav-bar.style-scope.app-bar-button.app-install-link
 
 ! https://www.bilibili.com
 ! b站首页“检测到您使用了插件，展示内容可能受影响”的提示
