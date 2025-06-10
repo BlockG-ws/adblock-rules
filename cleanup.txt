@@ -27,6 +27,11 @@ www.forbes.com##.newsLetterSubscriptionLink
 www.forbes.com##.inlineAdMobileContainer
 www.forbes.com##div[data-testid="ad-container"]
 
+! https://www.androidauthority.com
+! remove votes and unrelevant product promotions
+www.androidauthority.com##.e_fk.e_e
+www.androidauthority.com##.e_dj.e_e
+
 ! https://unsplash.com
 ! remove all plus prompt & promoted image (for free users maybe)
 unsplash.com##a:matches-attr(href="/\/plus(.*)/")
