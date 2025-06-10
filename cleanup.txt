@@ -73,3 +73,16 @@ www.yutu.cn##.home-alt-activ
 www.yutu.cn##.js_min_activity_home.user-research
 www.yutu.cn##.right-add-vip
 www.yutu.cn##.login-fixed
+
+! https://mooc1.chaoxing.com
+! 超星学习通：移除视频播放页面含有个人信息的水印
+mooc1.chaoxing.com###mask_div00
+mooc1.chaoxing.com###mask_div01
+mooc1.chaoxing.com###mask_div10
+mooc1.chaoxing.com###mask_div11
+mooc1.chaoxing.com###mask_div20
+mooc1.chaoxing.com###mask_div21
+mooc1.chaoxing.com###mask_div30
+mooc1.chaoxing.com###mask_div31
+mooc1.chaoxing.com###mask_div40
+mooc1.chaoxing.com###mask_div41
