@@ -68,9 +68,7 @@ alistgo.com##.sidebar-ad-placeholder
 123864.com##div.appdiv.web-wrap div.webbody:style(background-image: none !important;)
 
 ! https://www.yutu.cn
-! 羽兔网：移除登录提示、vip 推广弹窗
-www.yutu.cn##.home-alt-activ
-www.yutu.cn##.js_min_activity_home.user-research
+! 羽兔网：移除登录提示、vip 推广
 www.yutu.cn##.right-add-vip
 www.yutu.cn##.login-fixed
 
