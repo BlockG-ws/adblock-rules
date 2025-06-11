@@ -15,3 +15,6 @@ dev.to##.body-billboard-container.js-billboard-container
 ! 羽兔网：移除vip弹窗
 www.yutu.cn##.home-alt-activ
 www.yutu.cn##.js_min_activity_home.user-research
+
+! 百度知道：移除“写回答”按钮旁的红包动图
+zhidao.baidu.com##.exp-answerbtn-yh::after
