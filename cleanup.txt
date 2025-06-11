@@ -42,11 +42,15 @@ unsplash.com##figure:has(a:has-text(/^Promoted/i))
 ! remove "skillshare" promption
 uigradients.com##.sponsor
 
-! 8 Jun 2025 https://music.youtube.com
+! https://music.youtube.com
 ! remove 'open app' in the navbar
 music.youtube.com##.ytmusic-nav-bar.style-scope.app-bar-button.app-install-link
 ! remove 'upgrade' in sidebar 
 music.youtube.com##.ytmusic-guide-entry-renderer.style-scope.title:has-text('Upgrade'):upward(3)
+
+! https://www.perplexity.ai
+! remove login popup after editing prompt
+www.perplexity.ai##.dark\:bg-offsetDark.bg-offset.dark\:border-borderMainDark\/50.dark\:ring-borderMainDark\/50.dark\:divide-borderMainDark\/50.divide-borderMain\/50.ring-borderMain\/50.border-borderMain\/50.\!p-lg.ease-out.duration-300.shadow-md.rounded-lg.fade-in.animate-in.p-md
 
 ! https://www.bilibili.com
 ! b站首页“检测到您使用了插件，展示内容可能受影响”的提示
