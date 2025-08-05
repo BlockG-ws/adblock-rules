@@ -1,0 +1,19 @@
+[Adblock Plus]
+! Title: GB's RickRoll Detector
+! Description: 更适合中国宝宝体质的RickRoll检测器
+! Homepage: https://github.com/BlockG-ws/adblock-rules
+! License: https://github.com/BlockG-ws/adblock-rules/blob/main/LICENSE
+! Issues: https://github.com/BlockG-ws/adblock-rules/issues
+
+*##a[href*="bilibili.com/video/BV1f4411576C"]::before:style(content: "谨防电信诈骗" !important; color: #E6000D !important; visibility: visible)
+*##a[href*="bilibili.com/video/BV1UT42167xb"]::before:style(content: "谨防电信诈骗" !important; color: #E6000D !important; visibility: visible)
+*##a[href*="bilibili.com/video/BV1UT42167xb"]::before:style(content: "谨防电信诈骗" !important; color: #E6000D !important; visibility: visible)
+*##a[href*="bilibili.com/video/BV1PC4y1L7mq"]::before:style(content: "谨防电信诈骗" !important; color: #E6000D !important; visibility: visible)
+*##a[href*="bilibili.com/video/BV1GJ411x7h7"]::before:style(content: "谨防电信诈骗" !important; color: #E6000D !important; visibility: visible)
+*##a[href*="b23.tv/j0rQzU"]::before:style(content: "谨防电信诈骗" !important; color: #E6000D !important; visibility: visible)
+*##a[href*="bilibili.com/video/BV1uT4y1P7CX"]::before:style(content: "谨防电信诈骗" !important; color: #E6000D !important; visibility: visible)
+*##a[href*="bilibili.com/video/BV1s44y1k7pK"]::before:style(content: "谨防电信诈骗" !important; color: #E6000D !important; visibility: visible)
+*##a[href*="bilibili.com/video/BV1AacWePEvV"]::before:style(content: "谨防电信诈骗" !important; color: #E6000D !important; visibility: visible)
+||https://vdse.bdstatic.com/192d9a98d782d9c74c96f09db9378d93.mp4^
+||https://vdse.bdstatic.com//192d9a98d782d9c74c96f09db9378d93.mp4
+||https://www.bilibili.com/video/BV1GJ411x7h7^
