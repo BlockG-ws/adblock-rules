@@ -1,0 +1,17 @@
+[Adblock Plus]
+! Title: GB's Quick Fixes
+! Description: Fixes for websites that stop working when adblock is enabled
+! Homepage: https://github.com/BlockG-ws/adblock-rules
+! License: https://github.com/BlockG-ws/adblock-rules/blob/main/LICENSE
+! Issues: https://github.com/BlockG-ws/adblock-rules/issues
+
+! 网易云音乐
+! 恢复听歌记录和私信提醒，同时修复新版“加载失败，网络错误”的问题
+! 问题来源： Easy Privacy
+! blame: https://github.com/easylist/easylist/blame/c4af36e67016389defff61e2e8d6840b18c070df/easyprivacy/easyprivacy_specific_international.txt#L969
+@@||clientlogusf.music.163.com/weapi/feedback/weblog?csrf*$xhr,domain=music.163.com
+@@|https://music.163.com/weapi/pl/count?csrf*$xhr,domain=music.163.com
+! 修复分享菜单
+! 问题来源： Fanboy's Annoyance List
+! blame: https://github.com/easylist/easylist/blame/312873a06ab72eb5844182ba69b1a1a6beeb6bb0/fanboy-addon/fanboy_social_general_hide.txt#L6808
+~music.163.com##.share-platform
