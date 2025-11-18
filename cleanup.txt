@@ -9,6 +9,20 @@
 ! remove campaign banners
 vuejs.org###bb-banner
 vuejs.org##html:remove-class('has-bb-banner')
+! remove sponsors sections
+vuejs.org##section#special-spsr
+vuejs.org##section#spsrs
+vuejs.org##.aside.special.spsr-container:upward(1)
+vuejs.org##.VPCarbonAds
+vuejs.org##.vue-mastery-link
+vuejs.org##.banner
+
+! https://vite.dev
+! remove sponsor message and sections in vite docs
+vite.dev##.VPDocAsideCarbonAds
+vite.dev##.VPDocAsideSponsors
+vite.dev##.banner
+vite.dev##html:not(.banner-dismissed):style(--vp-layout-top-height: 0px !important)
 
 ! https://docs.astro.build
 ! remove learn courses
