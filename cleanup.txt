@@ -116,3 +116,6 @@ mooc1.chaoxing.com###mask_div41
 ! https://howtogeek.com
 ! How-to Geek: remove not related articles card in the content
 www.howtogeek.com##div.display-card.article.article-card
+! remove empty dangleing ads container
+www.howtogeek.com##.adsninja-rail-container.sidebar
+www.howtogeek.com##.w-tag-interaction
