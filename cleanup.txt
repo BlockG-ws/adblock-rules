@@ -98,3 +98,7 @@ mooc1.chaoxing.com###mask_div30
 mooc1.chaoxing.com###mask_div31
 mooc1.chaoxing.com###mask_div40
 mooc1.chaoxing.com###mask_div41
+
+! https://howtogeek.com
+! How-to Geek: remove not related articles card in the content
+www.howtogeek.com##div.display-card.article.article-card
