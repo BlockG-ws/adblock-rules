@@ -28,3 +28,9 @@ zhidao.baidu.com##.exp-answerbtn-yh::after
 www.maoken.com##.slidepop.c-popup
 ! 移除旧版字体下载页面的开通会员提示
 www.maoken.com##.swiper-wrapper
+
+! https://www.lxlinux.net
+! 良许嵌入式：强制显示被隐藏的内容
+www.lxlinux.net##div.container{ height: auto !important; overflow: visible !important; }
+! 隐藏遮罩层和按钮
+www.lxlinux.net##div[id*="__YT_CONTENT_HIDER__"]
