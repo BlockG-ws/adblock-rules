@@ -12,6 +12,10 @@ iknow.lenovo.com.cn##.qrcode-page-wrapper
 ! dev.to greeting popup
 dev.to##.body-billboard-container.js-billboard-container
 
+! https://nexusgames.to
+! remove wrong game download link
+nexusgames.to##center
+
 ! 羽兔网：移除vip弹窗
 www.yutu.cn##.home-alt-activ
 www.yutu.cn##.js_min_activity_home.user-research
