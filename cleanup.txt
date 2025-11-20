@@ -119,3 +119,9 @@ www.howtogeek.com##div.display-card.article.article-card
 ! remove empty dangleing ads container
 www.howtogeek.com##.adsninja-rail-container.sidebar
 www.howtogeek.com##.w-tag-interaction
+
+! https://docs.qq.com
+! 腾讯文档：去除文档工具栏的广告和VIP限定功能
+! 对于 VIP 用户，如果你确实需要会员功能，请在自定义屏蔽列表添加 `~docs.qq.com##ul.ribbon-toolbar_tablist__3z3Z3 li:nth-of-type(9)` 规则
+docs.qq.com##div#workbench div#titleAdContainer.title-ad-container
+docs.qq.com##ul.ribbon-toolbar_tablist__3z3Z3 li:nth-of-type(9)

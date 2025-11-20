@@ -15,3 +15,10 @@
 ! 问题来源： Fanboy's Annoyance List
 ! blame: https://github.com/easylist/easylist/blame/312873a06ab72eb5844182ba69b1a1a6beeb6bb0/fanboy-addon/fanboy_social_general_hide.txt#L6808
 ~music.163.com##.share-platform
+
+! 腾讯文档
+! 恢复网站图标和登录弹窗
+! 问题来源： HaGeZi's Pro mini DNS/Browser Blocklist
+! blame: https://github.com/hagezi/dns-blocklists/blame/main/adblock/pro.mini.txt
+@@|https://docs.idqqimg.com/tim/docs*$script,domain=docs.qq.com
+@@|https://docs.idqqimg.com/tim/docs/desktop/favicon.ico
